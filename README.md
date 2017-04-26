@@ -3,9 +3,9 @@
 This module lets you authenticate against an instance of Dedicated Bluemix (via CloudFoundry's UAA server) in your Node.js applications. By plugging into Passport, Dedicated Bluemix authentication can integrated into any application or framework that supports [Connect](http://www.senchalabs.org/connect/)-style middleware, including [Express](http://expressjs.com/).
 
 ## Installation
-
+```
   $ npm install passport-dedicated-bluemix
-
+```
 ## Usage
 
 
@@ -49,7 +49,7 @@ app.get('/auth/bluemix/callback', passport.authenticate('bluemix-dedicated', { s
 ## Examples
 
 Developers using the popular [Express](http://expressjs.com/) web framework can
-refer to an [example](https://github.com/colbyy/passport-dedicated-bluemix/examples/server.js)
+refer to an [example](https://github.com/colbyy/passport-dedicated-bluemix/blob/master/examples/server.js)
 as a starting point for their own applications.
 
 ## FAQ
