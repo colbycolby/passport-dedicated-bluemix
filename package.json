@@ -1,0 +1,31 @@
+{
+  "name": "passport-dedicated-bluemix",
+  "version": "1.0.0",
+  "description": "Dedicated Bluemix passport strategy using oauth",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no tests at the moment!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colbyy/passport-dedicated-bluemix.git"
+  },
+  "keywords": [
+    "passport",
+    "bluemix",
+    "dedicated",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": "Colby Scotta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colbyy/passport-dedicated-bluemix/issues"
+  },
+  "homepage": "https://github.com/colbyy/passport-dedicated-bluemix#readme",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  }
+}
