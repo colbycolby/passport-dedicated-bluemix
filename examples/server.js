@@ -3,7 +3,7 @@ const express = require('express');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const passport = require('passport');
-const BluemixDedicatedStrategy = require('./passport-bluemix');
+const BluemixDedicatedStrategy = require('passport-dedicated-bluemix');
 const session = require('express-session');
 const sessionStore = new session.MemoryStore();
 
